@@ -3,7 +3,7 @@ from telebot import types
 from datetime import datetime, timedelta
 import time
 
-TOKEN = '7010295317:AAHjyrAFkvqVMOrwo3EGfbCI_nlyPDuczuY'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 # Словарь для хранения данных о событиях {chat_id: [{name: str, times: list, days: list}]}
